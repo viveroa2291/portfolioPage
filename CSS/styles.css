@@ -1,0 +1,582 @@
+a.top-links:hover {
+    text-decoration: none;
+}
+a.top-link:hover {
+    text-decoration: none;
+    color: white;
+}
+a.top-link { 
+    position: absolute; 
+}
+a.top-link:before {  
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: white;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.5s ease-in-out;
+}
+a.top-link:hover:before {
+    visibility: visible;
+    transform: scaleX(.75);
+}
+.top-navigation {
+    height: 3rem;
+}
+.home {
+    margin-left: 0;
+}
+.about {
+    margin-left: 4rem;
+}
+.contact {
+    margin-left: 8rem;
+}
+.story {
+    margin-left: 13rem;
+}
+.projects {
+    margin-left: 16.5rem;
+}
+.login, .profile {
+    right: 5rem;
+}
+.signup, .logout {
+    right: 0;
+}
+.slash {
+    color: white;
+    height: 10px;
+    margin-right: 2.5rem;
+}
+.top-links {
+    width: 100%;
+    align-items: center;
+}
+.title {
+    height: 5px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.footer-links:hover {
+    text-decoration: none;
+}
+a.footer-link:hover {
+    text-decoration: none;
+    color: white;
+}
+a.footer-link { 
+    position: relative;
+}
+a.footer-link:before {  
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: white;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.5s ease-in-out;
+}
+a.footer-link:hover:before {
+    visibility: visible;
+    transform: scaleX(.5);
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.facebook {
+    color: white;
+}
+.facebook:hover {
+    color: white;
+}
+.facebook::before, .facebook::after {
+    top: 0;
+    left: 0;
+}
+.facebook::before {
+    background: #3B5998;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.facebook:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.10s, border-bottom-color 0.30s linear 0.20s, border-left-color .40s linear .30s;
+}
+.facebook::after {
+    border: 0 solid transparent; 
+}
+.facebook:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.facebook {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.facebook::before, .facebook::after {
+      border-radius: 100%;
+}
+.instagram {
+    color: white; 
+}
+.instagram:hover {
+    color: white;
+}
+.instagram::before, .instagram::after {
+    top: 0;
+    left: 0;
+}
+.instagram::before {
+    padding: 15px;
+    border: 2px solid transparent;
+    background: #AA5544;
+}
+.instagram:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.instagram::after {
+    border: 0 solid transparent; 
+}
+.instagram:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.instagram {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.instagram::before, .instagram::after {
+      border-radius: 100%;
+}
+.snapchat {
+   
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.snapchat:hover {
+    color: white;
+}
+.snapchat::before, .snapchat::after {
+    top: 0;
+    left: 0;
+}
+.snapchat::before { 
+    background: #fffc00;
+    padding: 15px;
+    border: 3px solid transparent;
+}
+.snapchat:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.snapchat::after {
+    border: 0 solid transparent; 
+}
+.snapchat:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.snapchat {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.snapchat::before, .snapchat::after {
+      border-radius: 100%;
+}
+.youtube {
+    
+    color: white;
+}
+.youtube:hover {
+    color: white;
+}
+.youtube::before, .youtube::after {
+    top: 0;
+    left: 0;
+}
+.youtube::before {
+    background: #bb0000;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.youtube:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.youtube::after {
+    border: 0 solid transparent; 
+}
+.youtube:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.youtube {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.youtube::before, .youtube::after {
+      border-radius: 100%;
+}
+.linkedin {
+    color: white;
+}
+.linkedin:hover {
+    color: white;
+}
+.linkedin::before, .linkedin::after {
+    top: 0;
+    left: 0;
+}
+.linkedin::before {
+    background: #007bb5;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.linkedin:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.linkedin::after {
+    border: 0 solid transparent; 
+}
+.linkedin:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.linkedin {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.linkedin::before, .linkedin::after {
+      border-radius: 100%;
+}
+.stackoverflow {
+    color:white;
+}
+.stackoverflow:hover {
+    color: white;
+}
+.stackoverflow::before, .stackoverflow::after {
+    top: 0;
+    left: 0;
+}
+.stackoverflow::before {
+    background: orange;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.stackoverflow:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.stackoverflow::after {
+    border: 0 solid transparent; 
+}
+.stackoverflow:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.stackoverflow {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.stackoverflow::before, .stackoverflow::after {
+      border-radius: 100%;
+}
+.discord{
+    color: white;
+}
+.discord:hover {
+    color: white;
+}
+.discord::before, .discord::after {
+    top: 0;
+    left: 0;
+}
+.discord::before { 
+    background: blue;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.discord:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.discord::after {
+    border: 0 solid transparent; 
+}
+.discord:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.discord {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.discord::before, .discord::after {
+      border-radius: 100%;
+}
+.google {
+    color: white;
+}
+.google:hover {
+    color: white;
+}
+.google::before, .google::after {
+    top: 0;
+    left: 0;
+}
+.google::before {
+    background: #dd4b39;
+    padding: 15px;
+    border: 2px solid transparent;
+}
+.google:hover::before {
+    border-top-color: white; 
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: border-top-color 0.10s linear, border-right-color 0.20s linear 0.05s, border-bottom-color 0.30s linear 0.10s, border-left-color .40s linear .15s;
+}
+.google::after {
+    border: 0 solid transparent; 
+}
+.google:hover::after {
+    border-top: 2px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(360deg); 
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s; 
+}
+.google {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.google::before, .google::after {
+      border-radius: 100%;
+}
+.fab {
+    padding: 10px;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.bottom-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer-links {
+    margin: 0 2rem .5rem 2rem;
+}
+.copyright {
+    font-size: 12px;
+    margin-left: 8rem;
+}
+.english:hover, .spanish:hover{
+    text-decoration: none;
+    color: white;
+}
+.english { 
+    position: absolute;
+    font-size: 12px; 
+    margin-top: 5px;
+}
+.spanish {
+    position: absolute; 
+    font-size: 12px;
+    margin-left: 4rem;
+    margin-top: 5px;
+}
+.english:before, .spanish:before{  
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: white;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.5s ease-in-out;
+}
+.english:hover:before, .spanish:hover::before {
+    visibility: visible;
+    transform: scaleX(.75);
+}
+.english:hover, .spanish:hover {
+    cursor: pointer;
+}
+.hamburger {
+    display: none;
+}
+.minimize {
+    display: none;
+}
+@media (max-width: 1050px) {
+    .hamburger {
+        display: block;
+        width: 40px;
+        padding: .5rem;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+    }
+    .hamburger hr {
+        margin: .45rem 0;
+        border: 2px solid black;
+    }
+    .minimize {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 0;
+    }
+    .hr1, .hr2, .hr3 {
+        transition: 1s;
+    }
+    .change .hr1 {
+        -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+        transform: rotate(-45deg) translate(-8px, 8px);
+      }
+    .change .hr2 {
+        opacity: 0;
+    } 
+    .change .hr3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    header .minimize {
+        background-color: black;
+        position: fixed; 
+        width: 100%;
+        top: 4.75rem;
+        right: 100%;
+        transition-property: right;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+    }
+    .minimize a {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+    }
+    .minimize.show {
+        right: 0;
+    }
+    .top-navigation {
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+.main-section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 75%;
+}
+.project {
+    border: solid black 1px;
+    padding: 1rem;
+}
