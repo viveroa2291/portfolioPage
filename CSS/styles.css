@@ -33,14 +33,11 @@ a.top-link:hover:before {
 .about {
     margin-left: 4rem;
 }
-.contact {
+.story {
     margin-left: 8rem;
 }
-.story {
-    margin-left: 13rem;
-}
 .projects {
-    margin-left: 19.5rem;
+    margin-left: 14rem;
 }
 .login, .profile {
     right: 5rem;

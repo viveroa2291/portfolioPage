@@ -26,7 +26,6 @@
         <div class="minimize" id="minimize">
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
-            <a href="contact.php">Contact</a>
             <a href="story.php">Experience</a>
             <a href="projects.php">Projects</a>
         </div>
@@ -36,7 +35,6 @@
                     <div class="navbar-nav top-links">
                         <a class="navbar-brand text-white top-link home" href="index.php">Home</a>
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
-                        <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
                         <a class="nav-link text-white top-link story" href="story.php">Experience</a>
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Home Page</p>
@@ -48,7 +46,7 @@
     <main>
         <section>
             <div class="picture">
-                <img src="images/doorCountyBoat.jpeg" alt="Picture of me">
+                <img src="images/minneapolis.jpeg" alt="Picture of me">
             </div>
             <h1>Adan Vivero</h1>
             <hr>
@@ -58,14 +56,14 @@
             </div>
             <div class="business">
                 <p>E-mail for all business inquiries</p>
-                <p class="fa fa-envelope envelope"> adan.vivero1@gmail.com</p>
+                <p>adan.vivero1@gmail.com</p>
             </div>
             <div class="social-media-headers">            
-                <p class="contact-stackoverflow"><a href="https://stackoverflow.com/users/10572727/adan-vivero" class="fa fa-stack-overflow a-stack-overflow"></a></p>
-                <p class="contact-instagram"><a href="https://www.instagram.com/adxadan/" class="fa fa-instagram a-instagram"></a></p>
-                <p class="contact-youtube"><a href="https://www.youtube.com/channel/UC44ZQ3MDGUBNPA0ZFsY8Lfg" class="fa fa-youtube a-youtube"></a></p>            
-                <p class="contact-github"><a href="https://github.com/viveroa2291" class="fa fa-github a-github"></a></p>            
-                <p class="contact-linkedin"><a href="https://www.linkedin.com/in/adan-vivero-a93970156/" class="fa fa-linkedin a-linkedin"></a><a href="https://www.linkedin.com/in/adan-vivero-a93970156/"></a></p>
+                <p class="contact-stackoverflow"><a href="https://stackoverflow.com/users/10572727/adan-vivero" class="fa fa-stack-overflow a-stack-overflow" target="_blank"></a></p>
+                <p class="contact-instagram"><a href="https://www.instagram.com/adxadan/" class="fa fa-instagram a-instagram" target="_blank"></a></p>
+                <p class="contact-youtube"><a href="https://www.youtube.com/channel/UC44ZQ3MDGUBNPA0ZFsY8Lfg" class="fa fa-youtube a-youtube" target="_blank"></a></p>            
+                <p class="contact-github"><a href="https://github.com/viveroa2291" class="fa fa-github a-github" target="_blank"></a></p>            
+                <p class="contact-linkedin"><a href="https://www.linkedin.com/in/adan-vivero-a93970156/" class="fa fa-linkedin a-linkedin" target="_blank"></a><a href="https://www.linkedin.com/in/adan-vivero-a93970156/"></a></p>
             </div>
             <div class="social-media-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#0000ff" class="bi bi-discord discord-icon" viewBox="0 0 16 16">
@@ -79,12 +77,14 @@
                 </svg>            
                 <a href="" class="snapchat snapchat-text">Snapchat - adx305</a>
             </div>
+            <!---
             <div class="social-media-body">
                 <svg class="facebook-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#0000ff" class="bi bi-facebook" viewBox="0 0 16 16">
                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                 </svg>
                 <a href="https://www.facebook.com/adan.vivero97/" class="facebook-text">Facebook - Adan Vivero</a>
-            </div>
+            </div> 
+            
             <div class="social-media-body">
                 <svg class="tiktok" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Tiktok</title>
@@ -100,7 +100,7 @@
                 </svg>
                 <a href="" class="telegram-text">Telegram - avivero</a>
             </div>
-            <!---
+           
             <div class="social-media-body">
                 <svg class="vsco-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#ffffff" viewBox="0 0 32 32"> 
                     <path d="M16 0c-8.833 0-16 7.167-16 16s7.167 16 16 16c8.833 0 16-7.167 16-16s-7.167-16-16-16zM31.359 16c0 0.542-0.031 1.057-0.094 1.568l-2.724-0.318c0.036-0.417 0.068-0.833 0.068-1.25 0-0.385-0.031-0.802-0.068-1.182l2.724-0.323c0.094 0.516 0.094 0.995 0.094 1.505zM0.641 16c0-0.51 0.031-1.026 0.063-1.536l2.719 0.323c-0.031 0.411-0.063 0.797-0.063 1.214s0.031 0.802 0.063 1.214l-2.719 0.323c-0.063-0.51-0.063-1.026-0.063-1.536zM27.932 11.87l2.563-0.958c0.354 0.958 0.578 1.953 0.74 2.974l-2.724 0.323c-0.13-0.802-0.318-1.599-0.578-2.339zM28 16c0 0.802-0.094 1.568-0.224 2.339l-2.688-0.609c0.094-0.547 0.156-1.12 0.156-1.729s-0.063-1.214-0.156-1.792l2.688-0.609c0.156 0.771 0.224 1.568 0.224 2.401zM16 24.609c-4.755-0.005-8.604-3.854-8.609-8.609 0.005-4.755 3.854-8.604 8.609-8.609 4.755 0.005 8.604 3.854 8.609 8.609 0.010 4.745-3.828 8.599-8.573 8.609zM16.286 28v-2.75c1.182-0.042 2.344-0.302 3.427-0.771l1.182 2.5c-1.453 0.641-3.021 0.99-4.609 1.021zM11.042 26.948l1.214-2.5c1.057 0.479 2.208 0.766 3.427 0.802v2.75c-1.604-0.031-3.182-0.391-4.641-1.052zM4 16c0-0.833 0.094-1.63 0.255-2.432l2.688 0.609c-0.13 0.599-0.193 1.208-0.193 1.823 0 0.578 0.068 1.151 0.161 1.698l-2.688 0.604c-0.156-0.755-0.234-1.531-0.224-2.302zM15.682 4v2.75c-1.172 0.042-2.323 0.302-3.396 0.771l-1.182-2.495c1.443-0.641 3-0.984 4.578-1.026zM20.927 5.057l-1.214 2.495c-1.078-0.484-2.245-0.745-3.427-0.766v-2.755c1.667 0 3.234 0.385 4.641 1.026zM27.708 11.266c-0.307-0.75-0.682-1.464-1.12-2.146l2.245-1.536c0.542 0.865 1.021 1.76 1.406 2.719zM27.62 12.99l-2.693 0.609c-0.307-1.13-0.828-2.198-1.536-3.135l2.177-1.724c0.958 1.276 1.667 2.682 2.052 4.25zM23.010 9.984c-0.766-0.891-1.688-1.625-2.724-2.177l1.219-2.495c1.406 0.729 2.656 1.729 3.677 2.943zM22.208 4.99l1.281-2.427c0.896 0.51 1.724 1.083 2.526 1.755l-1.823 2.083c-0.615-0.536-1.276-1.005-1.984-1.411zM21.661 4.703c-0.719-0.354-1.469-0.641-2.24-0.865l0.672-2.656c0.995 0.292 1.953 0.641 2.88 1.12zM18.786 3.682c-0.802-0.193-1.604-0.292-2.432-0.323v-2.719c1.057 0.031 2.109 0.156 3.104 0.385zM15.745 3.359c-0.807 0.031-1.609 0.125-2.401 0.292l-0.641-2.661c0.958-0.224 1.984-0.349 3.042-0.349zM12.703 3.807c-0.781 0.224-1.542 0.51-2.271 0.865l-1.281-2.432c0.922-0.458 1.885-0.823 2.88-1.089zM9.885 4.958c-0.703 0.396-1.365 0.854-1.979 1.38l-1.828-2.052c0.802-0.672 1.635-1.245 2.531-1.755zM10.526 5.313l1.188 2.495c-1.057 0.542-1.953 1.281-2.724 2.146l-2.141-1.729c1.031-1.193 2.281-2.182 3.677-2.911zM6.464 8.734l2.146 1.729c-0.708 0.938-1.229 2.005-1.536 3.135l-2.688-0.609c0.417-1.599 1.12-3.036 2.078-4.255zM4.318 11.198l-2.557-0.958c0.38-0.958 0.865-1.885 1.438-2.719l2.24 1.568c-0.453 0.656-0.828 1.365-1.12 2.109zM4.094 11.807c-0.255 0.771-0.479 1.536-0.573 2.37l-2.719-0.318c0.156-1.026 0.38-2.052 0.734-3.010zM3.49 17.823c0.125 0.802 0.318 1.599 0.573 2.37l-2.557 0.958c-0.365-0.969-0.609-1.979-0.74-3.010zM4.318 20.766c0.323 0.771 0.708 1.474 1.12 2.146l-2.24 1.536c-0.578-0.839-1.063-1.74-1.438-2.688zM4.354 18.911l2.688-0.609c0.286 1.156 0.833 2.245 1.505 3.172l-2.146 1.724c-0.969-1.276-1.661-2.734-2.047-4.286zM8.927 21.953c0.771 0.896 1.698 1.661 2.755 2.208l-1.219 2.495c-1.417-0.745-2.677-1.755-3.714-2.974zM9.885 27.036l-1.276 2.438c-0.901-0.505-1.75-1.094-2.531-1.766l1.828-2.047c0.604 0.547 1.245 0.995 1.979 1.375zM10.432 27.328c0.703 0.354 1.474 0.641 2.271 0.865l-0.672 2.656c-0.995-0.266-1.958-0.63-2.88-1.089zM13.313 28.354c0.766 0.156 1.568 0.255 2.401 0.286v2.719c-1.031-0.036-2.063-0.151-3.073-0.349zM16.354 28.641c0.802-0.026 1.609-0.125 2.401-0.292l0.635 2.656c-0.995 0.224-2.016 0.354-3.036 0.385zM19.359 28.193c0.781-0.219 1.542-0.51 2.271-0.865l1.281 2.432c-0.917 0.469-1.88 0.833-2.88 1.089zM22.141 27.036c0.708-0.38 1.38-0.859 1.984-1.375l1.828 2.047c-0.786 0.672-1.63 1.26-2.531 1.766zM21.505 26.688l-1.188-2.495c1.052-0.552 1.99-1.302 2.755-2.208l2.141 1.729c-1.036 1.214-2.297 2.224-3.708 2.974zM25.599 23.234l-2.141-1.729c0.708-0.943 1.219-2.026 1.5-3.167l2.693 0.604c-0.417 1.542-1.109 3-2.052 4.292zM27.682 20.802l2.557 0.958c-0.385 0.958-0.865 1.859-1.438 2.719l-2.245-1.568c0.453-0.672 0.833-1.375 1.125-2.109zM27.906 20.193c0.255-0.734 0.448-1.536 0.573-2.333l2.719 0.318c-0.146 1.016-0.391 2.010-0.734 2.974zM28.51 7.073l-2.24 1.536c-0.479-0.656-1.016-1.266-1.599-1.823l1.823-2.052c0.74 0.74 1.411 1.505 2.016 2.339zM5.599 4.703l1.823 2.047c-0.604 0.547-1.12 1.156-1.599 1.828l-2.24-1.568c0.573-0.849 1.255-1.625 2.016-2.307zM3.552 24.99l2.24-1.531c0.479 0.635 1.026 1.245 1.599 1.823l-1.823 2.047c-0.729-0.729-1.406-1.51-2.016-2.339zM26.432 27.297l-1.823-2.047c0.573-0.547 1.12-1.151 1.599-1.792l2.24 1.568c-0.609 0.797-1.281 1.563-2.016 2.271z"/> 
@@ -113,22 +113,16 @@
                 <path d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.6C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.8,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM278,387H174.32L132.75,138.44l90.75-8.62,22,176.87c20.53-33.45,45.88-86,45.88-121.87,0-19.62-3.36-33-8.61-44L365.4,124.1c9.56,15.78,13.86,32,13.86,52.57C379.25,242.17,323.34,327.26,278,387Z" fill="blue"></path>
             </svg>
             <a href="https://account.venmo.com/u/Adan-Vivero" class="venmo-text">@Adan-Vivero</a>
-        </div>
-        </section>            
+        </div> 
         <p class="bottom-text">Code, Social Media, Cringe</p>
-
-        <div class="purple-block"></div>
-        <div class="purple-block2"></div>
-        <div class="purple-block3"></div>
-        <div class="purple-block4"></div>
+    </section>   
     </main>
-    <?php 
-        include_once 'footer.php';
-    ?> 
-    <script>
-    <?php
-        include 'scripts.js';
-    ?>
-    </script>
 </body>
 </html>
+<?php 
+     include_once 'footer.php';
+?> 
+<script>
+<?php
+    include 'scripts.js';
+?>

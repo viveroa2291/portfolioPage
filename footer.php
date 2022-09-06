@@ -13,7 +13,6 @@
 -->
     <div class="footer-nav">
         <a class="nav-link text-white footer-link" href="about.php">About</a>
-        <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
         <a class="nav-link text-white footer-link" href="story.php">Experience</a>
         <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
     </div>

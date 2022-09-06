@@ -20,6 +20,9 @@
     background: blue;
     color: white;
 }
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
 .contact-google {
     background: #dd4b39;
     color: white;
@@ -40,9 +43,9 @@ section {
 img {
     height: 600px;
 }
-.business{
+.business {
     margin-top: 2rem;
-    line-height: 0;
+    line-height: 5px;
 }
 .social-media-headers {
     display: flex;
@@ -61,8 +64,8 @@ img {
     overflow: hidden;
 }
 .picture img {
-    margin-top: -190px;
-    margin-left: -160px;
+    margin-top: -400px;
+    margin-left: -145px;
 }
 .purple-block {
     margin-left: 1rem;
@@ -203,7 +206,7 @@ img {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    background-color: mediumpurple;
     width: 45%;
     border-radius: 5px;
     margin-bottom: 1.5rem;
