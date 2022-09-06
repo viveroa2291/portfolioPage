@@ -40,7 +40,7 @@ a.top-link:hover:before {
     margin-left: 13rem;
 }
 .projects {
-    margin-left: 16.5rem;
+    margin-left: 19.5rem;
 }
 .login, .profile {
     right: 5rem;
@@ -562,7 +562,7 @@ a.footer-link:hover:before {
         background-color: black;
         position: fixed; 
         width: 100%;
-        top: 4.75rem;
+        top: 4rem;
         right: 100%;
         transition-property: right;
         transition-duration: .5s;

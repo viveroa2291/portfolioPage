@@ -5,6 +5,7 @@
     margin-bottom: 2.5rem;
     width: 70%;
     border: solid black 1px;
+    border-radius: 5px;
 }
 .picture {
     display: block;
@@ -17,8 +18,8 @@
     overflow: hidden;
 }
 .picture img {
-    margin-top: -710px;
-    margin-left: -270px;
+    margin-top: -475px;
+    margin-left: -245px;
 }
 .page-title {
     text-align: center;
@@ -28,21 +29,57 @@
 .header-hr {
     width: 25%;
 }
-.project {
+.job {
     padding: 1rem;
     padding-left: 2rem;
 }
-.project-link {
+.job-name {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.project-link:hover {
+.job-link:hover {
     text-decoration: none;
 }
-.project-date {
+.job-date {
     color: gray;
 }
 .description {
     font-family: 'Times New Roman', Times, serif;
+}
+.job-location {
+    line-height: 0;
+}
+.doordash {
+    color: red;
+    height: 50px;
+    width: 50px;
+}
+.shopbop {
+    height: 100px;
+    width: 100px;
+}
+.amazon {
+    height: 100px;
+    width: 100px;
+}
+.construction {
+    height: 100px;
+}
+.athome {
+    height: 100px;
+    width: 100px;
+}
+.ymca {
+    height: 100px;
+    width: 100px;
+}
+.little-ceasar {
+    height: 75px;
+    width: 75px;
+}
+.mcdonalds {
+    height: 75px;
+    width: 75px;
+    border-radius: 15px;
 }
 @media (max-width: 800px) {
     .main-section {
@@ -51,7 +88,7 @@
     .description {
         font-size: 12px;
     }
-    .project-name {
+    .job-name {
         font-size: 20px;
     }
 }

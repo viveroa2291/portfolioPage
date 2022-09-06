@@ -1,0 +1,84 @@
+.education {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    width: 50%;
+}
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.picture img {
+    margin-top: -580px;
+    margin-left: -265px;
+}
+.intro {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-title {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-hr {
+    width: 25%;
+}
+.eau-claire {
+    height: 100px;
+    width: 100px;
+}
+.harper {
+    height: 50px;
+    width: 50px;
+}
+.prospect {
+    height: 50px;
+    width: 50px;
+}
+.education-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.education-header {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+}
+.header {
+   font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+.skills {
+    font-family: 'Times New Roman', Times, serif;
+}
+.type {
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width: 800px) {
+    .intro {
+        font-size: 12px;
+    }
+    .education-header {
+        font-size: 18px;
+    }
+    .eau-claire {
+        height: 75px;
+        width: 75px;
+    }
+    .skills {
+        font-size: 13px;
+    }
+    .type {
+        font-size: 18px;
+    }
+}

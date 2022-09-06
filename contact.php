@@ -27,7 +27,7 @@
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
-            <a href="story.php">Story</a>
+            <a href="story.php">Experience</a>
             <a href="projects.php">Projects</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-navigation">
@@ -37,7 +37,7 @@
                         <a class="navbar-brand text-white top-link home" href="index.php">Home</a>
                         <a class="nav-link text-white top-link about" href="about.php">About</a>
                         <a class="nav-link text-white top-link contact" href="contact.php">Contact</a>
-                        <a class="nav-link text-white top-link story" href="story.php">Story</a>
+                        <a class="nav-link text-white top-link story" href="story.php">Experience</a>
                         <a class="nav-link text-white top-link projects" href="projects.php">Projects</a>
                         <p class="title">Contacts Page</p>
                     </div>

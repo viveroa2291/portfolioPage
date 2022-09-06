@@ -1,4 +1,5 @@
 <footer class="navbar navbar-dark bg-dark bottom-footer" id="footer"> 
+    <!--
     <div class="bottom-links">
         <a href="https://www.facebook.com/adan.vivero97/" class="fa fa-facebook footer-links facebook"></a>
         <a href="https://www.instagram.com/adxadan/" class="fa fa-instagram footer-links instagram"></a>
@@ -9,10 +10,11 @@
         <i class="fab fa-discord footer-links discord"></i> 
         <a href="#" class="fa fa-google footer-links google"></a> 
     </div>
+-->
     <div class="footer-nav">
         <a class="nav-link text-white footer-link" href="about.php">About</a>
         <a class="nav-link text-white footer-link" href="contact.php">Contact</a>
-        <a class="nav-link text-white footer-link" href="story.php">Story</a>
+        <a class="nav-link text-white footer-link" href="story.php">Experience</a>
         <a class="nav-link text-white footer-link" href="projects.php">Projects</a>
     </div>
     <div>
